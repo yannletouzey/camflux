@@ -54,7 +54,6 @@ function drawFrame() {
 }
 
 const asciiChars = ['@', '#', 'S', '%', '?', '*', '+', ';', ':', ',', '.'];
-
 function processPixelsToAscii() {
   const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
   const data = imageData.data;
